@@ -36,5 +36,3 @@ for(i=0; i<asiaScores.length; i++){
 }
 
 console.log(`As notas foram diferentes para os filmes ${diferentes.join(", ").toString().replace(", k"," e k")}`);
-
-
