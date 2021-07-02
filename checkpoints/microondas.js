@@ -32,7 +32,7 @@ let microondas = (food, customTimer) => {
         console.log("A pipoca está pronta, bom apetite!!!");
       }      
     }    
-    setTimeout(popcorn, customTimer) 
+    setTimeout(popcorn, customTimer); 
   }  
 
   // MACARRÃO
@@ -125,8 +125,7 @@ if(food === 5){
     if(food < 1 || food > 5){
       console.log("Opção de prato inexistente, escolha uma opção entre 1 e 5.");
     }
-}// fim da função microondas.
+}
 
-
-//Defina entre os parentes a opção de comida e tempo que deseja(em milisegundos).
+//Defina entre os parentes abaixo a opção de comida e tempo que deseja(em milisegundos).
 microondas(1, 2000);
